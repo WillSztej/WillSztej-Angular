@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>Scrolling Nav - Start Bootstrap Template</title>
+  <title>WillSztej.com</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="app.component.css" rel="stylesheet" />
@@ -31,14 +31,17 @@
     <h1 class="fw-bolder">will sztejnberg</h1>
     <p class="lead" style="color:grey">// software engineer</p>
     <div>
-      <p>555-555-6524</p>
+      <p>917-318-6524</p>
       <p>wsztejnb@purdue.edu</p>
     </div>
     <div id="social-media-links">
       <a href="https://www.linkedin.com/in/willsztejnberg/">LinkedIn</a>
       <a href="https://github.com/WillSztej">GitHub</a>
     </div>
-    <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
+    <a class="btn btn-lg btn-light" href="#about">about me</a>
+    <a class="btn btn-lg btn-light" href="#skills">skills</a>
+    <a class="btn btn-lg btn-light" href="#experience">experience</a>
+    <a class="btn btn-lg btn-light" href="#projects">projects</a>
   </div>
 </header>
 <!-- About section-->
@@ -46,35 +49,40 @@
   <div class="container px-4">
     <div class="row gx-4 justify-content-center">
       <div class="col-lg-8">
-        <h2 style="padding-bottom: 25px">about me</h2>
-        <p>Hi there! My name is Will and I'm a software engineer based in Austin, Texas.</p>
-        <p>I'm an Austin native, but graduated with a B.S. in Computer Science at Purdue University.</p>
-        <p>I love programming, and specialize working on back-end services.</p>
-        <p style="color:grey">// maybe you can tell by this glorious UI design straight out of 1999 :)</p>
-        <p>I am not currently looking for work opportunities, but feel free to look around my site and check out what I have to offer!</p>
+        <h2 style="padding-bottom: 25px; font-weight:bold">[ about me ]</h2>
+        <p>Hi there! My name is Will and I work as a Software Engineer based in Austin, Texas. </p>
+        <p>I'm an Austin native, but will graduate with a B.S. in Computer Science at Purdue University in Spring 2022.</p>
+        <p>I love programming, and I would like to specialize working on web back-end services or embedded systems.</p>
+        <p style="color:grey">// maybe you can tell I work backend by this gloriously simple UI design :)</p>
+        <p>I am not currently looking for work opportunities, but feel free to look around my site and see what I have to offer!</p>
       </div>
     </div>
   </div>
 </section>
 <!-- Services section-->
-<section class="bg-light" id="services">
+<section class="bg-light" id="skills">
   <div class="container px-4">
     <div class="row gx-4 justify-content-center">
       <div class="col-lg-8">
-        <h2 style="padding-bottom: 25px">what i'm good at</h2>
-        <p style="color:blue;font-size:18px;"> programming languages:</p>
+        <h2 style="padding-bottom: 25px; font-weight:bold">[ what i'm good at ]</h2>
+        <app-pie-chart style="float: right"></app-pie-chart>
+        <p style="font-weight:bold;color:blue;font-size:18px;"> programming languages:</p>
         <ul>
-          <pre>proficient:   Java/Kotlin,   Python,   C</pre>
-          <pre>familiar:   JavaScript,   C++,   C#,   HTML/CSS</pre>
+          <pre style="font-size:18px;font-weight:bold;">proficient:   Java/Kotlin,   Python,   C</pre>
+          <pre style="font-size:18px;">familiar:   JavaScript,   C++,   HTML/CSS</pre>
         </ul>
-        <p style="color:blue;font-size:18px;"> tools and technologies:</p>
+        <p style="font-weight:bold;color:blue;font-size:18px;"> frameworks:</p>
         <ul>
-          <pre>proficient:   GitHub,   GitLab,   C</pre>
-          <pre>familiar:   JavaScript,   C++,   C#,   HTML/CSS</pre>
+          <pre style="font-size:18px;font-weight:bold;">proficient:   Angular,   Spring Boot,   Django</pre>
+          <pre style="font-size:18px;">familiar:   React.JS,   Node.JS</pre>
         </ul>
-
-        <p style="color:grey">// note that I love to learn new things!
-          I'm always open to gaining more experience in unfamiliar tools and technologies</p>
+        <p style="font-weight:bold;color:blue;font-size:18px;"> tools and technologies:</p>
+        <ul>
+          <pre style="font-size:18px;font-weight:bold;">proficient:   GraphQL,   GCP,   AWS,   Git</pre>
+          <pre style="font-size:18px;">familiar:   React JS,   Node JS,   REST architecture</pre>
+        </ul>
+        <p style="color:grey; padding-top: 30px">/* note that I love to learn new things!</p>
+        <p style="color:grey">I'm always open to gaining more experience in unfamiliar tools and technologies */</p>
       </div>
     </div>
   </div>
@@ -84,18 +92,23 @@
   <div class="container px-4">
     <div class="row gx-4 justify-content-center">
       <div class="col-lg-8">
-        <h2 style="padding-bottom: 25px">work experience</h2>
-        <pre class="lead">junior software engineer @ Group1001             june 2022</pre>
+        <h2 style="padding-bottom: 25px;font-weight:bold">[ work experience ]</h2>
+        <pre style="font-weight:bold" class="lead">junior software engineer @ Group1001</pre>
+        <p>june 2022</p>
           <ul>
-            <p style="font-weight:bold;font-size:18px;"> coming soon!</p>
+            <p style="font-size:18px;"> - coming soon!</p>
           </ul>
-        <pre class="lead">software engineering intern @ Group1001             may 2021 - december 2021</pre>
+        <pre style="font-weight:bold; padding-top: 25px" class="lead">software engineering intern @ Group1001</pre>
+        <p>may 2021 - december 2021</p>
           <ul>
-            <p style="font-weight:bold;font-size:18px;">wrote backened APIs</p>
+            <p style="font-size:18px;"> - refactored major backend services by adding DB access to hard-coded mappings and configuration data.</p>
+            <p style="font-size:18px;"> - debugged Python-based ETL pipelines, which had significant impacts on production-wide recourses</p>
+            <p style="font-size:18px;"> - led backend development of a new UI feature, including designing necessary DB schema and writing GraphQL APIs</p>
           </ul>
-        <pre class="lead">computer science teaching assistant             january 2020 - may 2020</pre>
+        <pre style="font-weight:bold;  padding-top: 25px" class="lead">computer science teaching assistant</pre>
+        <p>january 2020 - may 2020</p>
         <ul>
-          <p style="font-weight:bold;font-size:18px;">helped debug code</p>
+          <p style="font-size:18px;"> - helped students debug </p>
         </ul>
 
       </div>
@@ -107,22 +120,35 @@
   <div class="container px-4">
     <div class="row gx-4 justify-content-center">
       <div class="col-lg-8">
-        <h2 style="padding-bottom: 25px">personal projects</h2>
-        <pre class="lead">Java Chess 1.0</pre>
-          <ul>
-            <p style="font-weight:bold;font-size:18px;">todo</p>
+        <h2 style="font-weight:bold; padding-bottom:25px">[ personal projects ]</h2>
+        <a href="https://github.com/WillSztej/Java-Chess-1.0" class="lead">Java Chess 1.0</a>
+          <ul style="padding-top: 10px">
+            <p style="font-size:18px;">The following is my first implementation of a playable Chess
+              game. This was developed a few years ago, when I had just started to learn the basics of object-oriented
+              programming. The UI was structured from the javax.swing package, with some additional textures done by
+              myself in Adobe Photoshop. All logic pertaining the game is built with Java, and can be run locally
+              from MainControl.java.</p>
           </ul>
-        <pre class="lead">YouTube to Spotify Sync</pre>
-        <ul>
-          <p style="font-weight:bold;font-size:18px;">todo</p>
+        <a href="https://github.com/WillSztej/Spotify-Youtube-Sync" class="lead">YouTube to Spotify Sync</a>
+        <ul style="padding-top: 10px">
+          <p style="font-size:18px;">This is a python program that communicates between the YouTube and Spotify Web APIs. It will
+          routinely monitor for interaction on my personal YouTube account. If I have liked a YouTube video that has
+          licensed music associated with it, a script will be run to add the song to a custom playlist on my Spotify
+            account.</p>
         </ul>
-        <pre class="lead">StockTalk</pre>
-        <ul>
-          <p style="font-weight:bold;font-size:18px;">todo</p>
+        <a class="lead">StockTalk</a>
+        <ul style="padding-top: 10px">
+          <p style="font-size:18px;">This was a full-stack web application that mimicked the functionality of social media apps like
+            Reddit or Instagram. It was built in a group of four, that of which I lead as a Full Stack Developer and the Scrum
+            Master. The tech stack consisted of Angular, Django, and MySQL. Most of my technical contributions came from writing
+            functionality for back-end REST endpoints, functionality for front-end HTTP services, and UI development/design. </p>
         </ul>
-        <pre class="lead">HydRate</pre>
-        <ul>
-          <p style="font-weight:bold;font-size:18px;">todo</p>
+        <a href="https://github.com/WillSztej/WillSztej-Angular" class="lead">WillSztej.com</a>
+        <ul style="padding-top: 10px">
+          <p style="font-size:18px;">This would be the very website you're on right now! This simple web application consists of
+          a front-end built using Angular and a back-end using Django. The back-end is used to create endpoints
+          for dynamically-generated data, such as the distribution of programming languages used on my
+            GitHub account.</p>
         </ul>
 
       </div>
@@ -142,7 +168,7 @@
 </section>
 <!-- Footer-->
 <footer class="py-5 bg-dark">
-  <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; WillSztej.com</p></div>
+  <div class="container px-4"><p class="m-0 text-center text-white">Built using Angular and Django - Copyright &copy; WillSztej.com</p></div>
 </footer>
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
