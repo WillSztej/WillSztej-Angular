@@ -1,0 +1,32 @@
+<div class="pie-chart">
+  <kendo-chart class="kendo">
+    <kendo-chart-series>
+      <kendo-chart-series-item
+        type="pie"
+        [data]="pieData"
+        field="value"
+        [autoFit] = "autoFit"
+        [padding]="padding"
+        categoryField="category"
+        [labels]="{ visible: true, content: labelContent }"
+      >
+      </kendo-chart-series-item>
+    </kendo-chart-series>
+  </kendo-chart>
+</div>
+<p style="color:grey">// percentages calculated dynamically using metadata from GitHub API</p>
+<style>
+  .kendo {
+    width: 450px;
+  }
+  .pie-chart {
+    height: 200px;
+    width: 450px;
+    overflow: auto;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+</style>
+
